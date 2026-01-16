@@ -1,8 +1,40 @@
-# React + Vite
+# Recipe Management Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project contains the **frontend implementation** of the Recipe Management System, developed using **React** and **Vite**.
 
-Currently, two official plugins are available:
+The frontend provides a modern, responsive user interface for interacting with the backend API, allowing users to view, manage, and organize recipes and ingredients.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## Overview
+The frontend application is responsible for:
+- Displaying recipes and recipe details
+- Managing ingredients and related data
+- Providing administrative views for recipe management
+- Communicating with the backend API via HTTP requests
+
+The application follows a **component-based architecture** to ensure reusability and maintainability.
+
+---
+
+## Technologies
+- React
+- Vite
+- JavaScript
+- Redux Toolkit
+- CSS
+
+---
+
+## Architecture
+- **Component-based design** for UI development
+- **Redux Toolkit** for global state management
+- **Service layer** for API communication
+- **Modular CSS** for styling and layout
+
+This structure supports scalability and clean separation of responsibilities.
+
+---
+
+## Purpose
+This frontend project was developed for **educational and portfolio purposes**, demonstrating modern frontend development practices and integration with a RESTful backend API.
