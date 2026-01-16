@@ -1,0 +1,36 @@
+.recipe-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.recipe-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.recipe-card h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.recipe-card p {
+  color: #666;
+}
+/*
+.recipe-card {
+border: 1px solid #ddd;
+border-radius: 5px;
+padding: 1rem;
+margin: 1rem;
+width: calc(33.333% - 2rem);
+}
+
+.recipe-card img {
+width: 100%;
+height: auto;
+border-radius: 5px;
+}
+*/

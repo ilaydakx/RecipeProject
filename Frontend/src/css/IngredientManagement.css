@@ -1,0 +1,39 @@
+.ingredient-management {
+    padding: 20px;
+  }
+  
+  .add-ingredient {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .add-ingredient input {
+    padding: 5px;
+  }
+  
+  .add-ingredient button {
+    padding: 5px 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  ul li input {
+    padding: 5px;
+    flex-grow: 1;
+  }
+  
+  ul li button {
+    padding: 5px 10px;
+  }
+  

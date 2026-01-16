@@ -1,0 +1,58 @@
+.recipe-management {
+  padding: 20px;
+  text-align: center;
+ }
+
+.recipe-management h2{
+  margin-bottom: 20px;
+  text-align: center;
+}
+.recipe-management h3 {
+  margin-top: 30px;
+  color: #333;
+}
+.recipe-management ul {
+  display: flex;
+  flex-direction:column;
+  gap: 10px;
+  
+}
+
+.recipe-management li {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+.recipe-management li:hover {
+  background: #f0f0f0;
+}
+.recipe-management button {
+  padding: 8px 12px;
+  background: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.recipe-management button:first-child {
+  margin-left:auto;
+}
+.recipe-management button:hover {
+  background: #45a049;
+}
+.recipe-management .delete-button {
+  background: #f44336;
+}
+
+.recipe-management .delete-button:hover {
+  background: #e53935;
+}
+
